@@ -1,0 +1,43 @@
+.testimonial{
+    background-color: var(--color-primary);
+     max-width: 18rem;
+     min-width: 18rem;
+    height: 11rem;
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+    @media only screen and (max-width: 940px) {
+        text-align: start;
+        height: 12rem;
+    }
+    &__row{
+        display: flex;
+        align-items: center;
+    }
+    &__avatar{
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1.5rem;
+    }
+    &__column{
+        justify-content: center;
+    }
+    &__name{
+        color: var(--color-gray-light);
+        font-weight: 500;
+        margin-bottom: .3rem;
+    }
+    &__status{
+        margin-top: 0;
+        color: var(--color-secondary);
+    }
+    &__text{
+        color: var(--color-gray-light);
+        line-height: 1.2;
+        @media only screen and (max-width: 940px) {
+        line-height: 1.2;
+        font-size: 1.12rem;
+
+        }
+    }
+}

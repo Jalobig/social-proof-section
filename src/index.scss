@@ -1,0 +1,20 @@
+:root {
+  // // Colors
+
+  /// Primary
+
+  --color-primary: hsl(300, 43%, 22%);
+  --color-secondary: hsl(333, 80%, 67%);
+
+  /// Neutral
+
+  --color-gray-dark: hsl(303, 10%, 53%);
+  --color-gray-light: hsl(300, 24%, 96%);
+  --color-white: hsl(0, 0%, 100%);
+}
+html{position: relative;}
+body {
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+  
+}
